@@ -1,3 +1,3 @@
-# Spring Boot JDBC Example
+# Spring Boot JPA Example
 
-Trying out Spring Boot with JDBC.
+Trying out Spring Boot with JPA.
