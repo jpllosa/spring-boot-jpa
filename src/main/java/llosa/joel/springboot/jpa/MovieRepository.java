@@ -1,4 +1,4 @@
-package llosa.joel.springboot.jdbc;
+package llosa.joel.springboot.jpa;
 
 import java.util.List;
 
