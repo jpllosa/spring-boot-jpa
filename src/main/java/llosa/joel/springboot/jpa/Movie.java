@@ -7,19 +7,20 @@ import javax.persistence.Id;
 
 @Entity
 public class Movie {
-	
+
 	@Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
-    private Long id;
-    private String title;
-    private String description;
-    
-    protected Movie() {}
-    
-    public Movie(String title, String description) {
-    	this.title = title;
-    	this.description = description;
-    }
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long id;
+	private String title;
+	private String description;
+
+	protected Movie() {
+	}
+
+	public Movie(String title, String description) {
+		this.title = title;
+		this.description = description;
+	}
 
 	public Long getId() {
 		return id;
@@ -33,7 +34,7 @@ public class Movie {
 		this.description = description;
 		return this;
 	}
-	
+
 	public String getDescription() {
 		return description;
 	}
